@@ -2,7 +2,7 @@ module AutoSessionTimeoutWarning
 
   def self.included(controller)
     controller.extend ClassMethods
-    controller.hide_action :render_auto_session_timeout
+    #controller.hide_action :render_auto_session_timeout
   end
 
   module ClassMethods
